@@ -75,16 +75,36 @@ footer {
 }
 
 /* Estilos para a seção de galeria de imagens */
-.gallery-img {
-    width: 100%; 
-    height: auto;  
-    margin-bottom: 20px;
-}
-
+ 
 .gallery-section h2 {
     text-align: center;  
     margin-bottom: 30px;  
 }
+ 
+
+/* Estilos para o carrossel */
+.carousel-inner {
+    text-align: center;  
+}
+ 
+.carousel-item img {
+    margin: 0 auto;  
+    display: block;
+    max-width: 600px;  
+    height: auto;
+}
+
+ 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;  
+}
+ 
+.carousel-control-prev,
+.carousel-control-next {
+    color: #fff;  
+}
+
 
 /* Estilos para a seção de depoimentos */
 .testimonial-section {
