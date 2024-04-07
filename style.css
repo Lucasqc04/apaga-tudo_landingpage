@@ -1,0 +1,138 @@
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Estilos do botão */
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos do banner */
+.banner {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para a seção do produto */
+.product-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.product-description {
+    margin-bottom: 30px;
+}
+
+/* Estilos para a seção de galeria de imagens */
+.gallery-img {
+    width: 100%; 
+    height: auto;  
+    margin-bottom: 20px;
+}
+
+.gallery-section h2 {
+    text-align: center;  
+    margin-bottom: 30px;  
+}
+
+/* Estilos para a seção de depoimentos */
+.testimonial-section {
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para a seção Sobre Nós */
+.about-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.about-person {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-person h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+ 
